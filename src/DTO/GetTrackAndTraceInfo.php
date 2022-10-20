@@ -1,7 +1,7 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class GetTrackAndTraceInfo
+class GetTrackAndTraceInfo extends BaseDTO
 {
     /**
      * @var AuthData|null $authData

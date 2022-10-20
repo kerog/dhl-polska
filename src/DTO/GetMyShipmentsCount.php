@@ -1,7 +1,7 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class GetMyShipmentsCount
+class GetMyShipmentsCount extends BaseDTO
 {
     /**
      * @var AuthData|null $authData

@@ -1,7 +1,7 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class BookCourier
+class BookCourier extends BaseDTO
 {
     /**
      * @var AuthData|null $authData

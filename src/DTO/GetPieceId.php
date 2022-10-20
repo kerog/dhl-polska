@@ -1,7 +1,7 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class GetPieceId
+class GetPieceId extends BaseDTO
 {
     /**
      * @var AuthData $authData

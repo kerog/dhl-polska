@@ -1,7 +1,7 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class CreateShipmentReturn
+class CreateShipmentReturn extends BaseDTO
 {
     /**
      * @var AuthData $authData

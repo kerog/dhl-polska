@@ -1,7 +1,7 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class GetReturnByWaybill
+class GetReturnByWaybill extends BaseDTO
 {
     /**
      * @var AuthData $authData

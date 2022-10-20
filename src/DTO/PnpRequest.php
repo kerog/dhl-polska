@@ -1,7 +1,7 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class PnpRequest
+class PnpRequest extends BaseDTO
 {
     /**
      * @var AuthData $authData

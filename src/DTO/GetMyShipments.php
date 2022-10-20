@@ -1,7 +1,9 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class GetMyShipments
+use PHPUnit\Runner\BaseTestRunner;
+
+class GetMyShipments extends BaseDTO
 {
     /**
      * @var AuthData|null $authData

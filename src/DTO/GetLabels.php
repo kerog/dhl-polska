@@ -1,7 +1,7 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class GetLabels
+class GetLabels extends BaseDTO
 {
     /**
      * @var AuthData|null $authData

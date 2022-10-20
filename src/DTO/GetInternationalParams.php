@@ -1,7 +1,7 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class GetInternationalParams
+class GetInternationalParams extends BaseDTO
 {
     /**
      * @var AuthData|null $authData

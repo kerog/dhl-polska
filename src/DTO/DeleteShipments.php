@@ -1,7 +1,7 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class DeleteShipments
+class DeleteShipments extends  BaseDTO
 {
     /**
      * @var AuthData|null $authData

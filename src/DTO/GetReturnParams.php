@@ -1,7 +1,7 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class GetReturnParams
+class GetReturnParams extends BaseDTO
 {
     /**
      * @var AuthData|null $authData

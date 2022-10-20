@@ -1,7 +1,7 @@
 <?php
 namespace Kerogos\DhlPolska\DTO;
 
-class GetNearestServicepoints
+class GetNearestServicepoints extends BaseDTO
 {
     /**
      * @var AuthData|null $authData
