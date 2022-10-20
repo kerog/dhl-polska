@@ -12,4 +12,10 @@ class AuthData
      * @var string $password
      */
     public $password;
+
+    public function __construct()
+    {
+        $this->username = config('dhl.apiLogin');
+        $this->password = config('dhl.apiPassword');
+    }
 }

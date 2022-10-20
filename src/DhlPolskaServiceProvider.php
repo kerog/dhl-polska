@@ -12,7 +12,9 @@ class DhlPolskaServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->publishes([
+            __DIR__.'/../config/dhl.php' => config_path('dhl.php')
+        ], 'config');
     }
 
     /**
@@ -22,6 +24,8 @@ class DhlPolskaServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([
+            __DIR__.'/../config/dhl.php' => config_path('dhl.php'),
+        ]);
     }
 }
