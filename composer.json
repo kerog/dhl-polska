@@ -2,7 +2,7 @@
     "name": "kerogos/dhl-polska",
     "description": "A DHL24 Polska webapi2 connector",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "laravel",
         "dhl-polska",

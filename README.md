@@ -1,5 +1,5 @@
 # dhl-polska
-[![GitHub version](https://img.shields.io/badge/version-1.0.0-lightgrey)]()
+[![GitHub version](https://img.shields.io/badge/version-1.0.1-lightgrey)]()
 [![GitHub license](https://img.shields.io/github/license/kerogos/dhl-polska)](https://github.com/kerogos/dhl-polska/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/kerogos/dhl-polska)](https://github.com/kerogos/dhl-polska/issues)
 
@@ -9,6 +9,9 @@
 ### Opis
 Pakiet jest wraperem do Laravela do obsługi webapi2 z DHLa [dokumentacja metod](https://dhl24.com.pl/pl/webapi2/doc/index.html).
 Pakiet działa z Laravelem >= 7.x
+### Zmiany
+#### 2022-12-09 (v1.0.1)
+- FIX: Poprawa błędu Class 'Kerogos\DhlPolska\DTO\createShipmentsResponse' na Linuxie
 ### Instalacja
 W projekcie uruchom
 ```shell
@@ -42,6 +45,9 @@ Pakiet jest na licencji Boost Software License - Version 1.0
 ### Description
 This is Laravel package for Poland DHL webapi2 [documentation for existing methods](https://dhl24.com.pl/en/webapi2/doc/index.html).
 Package works on Laravel 7 and above.
+### Changelog
+#### 2022-12-09 (v1.0.1)
+- FIX: Error Class 'Kerogos\DhlPolska\DTO\createShipmentsResponse' not found on Linux.
 ### Installation
 In your project run fallowing command
 ```shell
